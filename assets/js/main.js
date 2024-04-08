@@ -1357,13 +1357,18 @@
     /*-------------------------------
      23. Scroll Top
      ---------------------------------*/
-    function scroll_top() {
+     
+    // function scroll_top() {
         $("#site-scroll").on("click", function() {
-            $("html, body").animate({scrollTop: 0}, 1000);
-            return false;
+            // $("html, body").animate({scrollTop: 0}, 1000);
+            // return false;
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // Smooth scrolling behavior
+            });
         });
-    }
-    scroll_top();
+    // }
+    // scroll_top();
     $(window).scroll(function() {
         if ($(this).scrollTop() > 300) {
             $("#site-scroll").fadeIn();

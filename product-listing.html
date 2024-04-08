@@ -9,7 +9,7 @@
     <meta name="description" content="description" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Title Of Site -->
-    <title>Homepage</title>
+    <title>Base template</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.png" />
     <!-- Plugins CSS -->
@@ -62,9 +62,9 @@
                     class="search-drawer offcanvas offcanvas-top"
                     tabindex="-1"
                     id="search-drawer">
-                    <div class="container container-1330">
+                    <div class="container">
                       <div
-                        class="search-header d-flex-center justify-content-between mb-4">
+                        class="search-header d-flex-center justify-content-between mb-3">
                         <h3 class="title m-0">What are you looking for?</h3>
                         <button
                           type="button"
@@ -897,630 +897,356 @@
       <!--End Mobile Menu-->
 
       <!-- Body Container -->
-      <div id="page-content" class="mb-0">
-        <!--Home Slideshow-->
-        <section class="slideshow slideshow-wrapper">
-          <div class="container container-1330">
-            <div class="row">
-              <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+      <!-- Body Container -->
+      <div id="page-content">
+        <div class="py-3"></div>
+        <!--Main Content-->
+        <div class="container pt-5">
+          <div class="row">
+            <!--Sidebar-->
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-3 sidebar sidebar-bg filterbar">
+              <div class="closeFilter d-block d-lg-none">
+                <i class="icon anm anm-times-r"></i>
+              </div>
+              <div class="sidebar-tags sidebar-sticky clearfix">
+                <!--Categories-->
                 <div
-                  class="home-slideshow slideshow-medium slick-arrow-dots circle-arrow">
-                  <div class="slide">
-                    <div class="slideshow-wrap bg-size rounded-4">
-                      <img
-                        class="bg-img rounded-4 blur-up lazyload"
-                        data-src="assets/images/banners/g1.png"
-                        src="assets/images/banners/g1.png"
-                        alt="slideshow"
-                        title=""
-                        width="1148"
-                        height="710" />
-                      <div
-                        class="slideshow-content slideshow-overlay middle-center">
-                        <div class="slideshow-content-in">
-                          <div class="wrap-caption animation style3">
-                            <h2 class="ss-mega-title">
-                              Get organized with our Premium Office Supplies
-                            </h2>
-                            <!-- <p class="ss-sub-title xs-hide">The more you love your health, more you eat organic. <br/>No medicine can heal you better than organic food does</p> -->
-                            <div class="ss-btnWrap">
-                              <a
-                                class="btn btn-primary"
-                                href="shop-grid-view.html"
-                                >Order Now</a
-                              >
-                              <a
-                                class="btn btn-primary"
-                                href="shop-grid-view.html"
-                                >Explore Now</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slide">
-                    <div class="slideshow-wrap bg-size rounded-4">
-                      <img
-                        class="bg-img rounded-4 blur-up lazyload"
-                        data-src="assets/images/banners/g2.png"
-                        src="assets/images/banners/g2.png"
-                        alt="slideshow"
-                        title=""
-                        width="1148"
-                        height="710" />
-                      <div
-                        class="slideshow-content slideshow-overlay middle-center">
-                        <div class="slideshow-content-in">
-                          <div class="wrap-caption animation style3">
-                            <h2 class="ss-mega-title">
-                              Shop the Latest Trends in Stationary Supplies
-                            </h2>
-                            <!-- <p class="ss-sub-title">Save up to 50% off on your first order</p> -->
-                            <div class="ss-btnWrap">
-                              <a
-                                class="btn btn-primary"
-                                href="shop-grid-view.html"
-                                >Shop Collection</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slide">
-                    <div class="slideshow-wrap bg-size rounded-4">
-                      <img
-                        class="bg-img rounded-4 blur-up lazyload"
-                        data-src="assets/images/banners/g3.png"
-                        src="assets/images/banners/g3.png"
-                        alt="slideshow"
-                        title=""
-                        width="1148"
-                        height="710" />
-                      <div
-                        class="slideshow-content slideshow-overlay middle-center">
-                        <div class="slideshow-content-in">
-                          <div class="wrap-caption animation style3">
-                            <h2 class="ss-mega-title">
-                              Discover Your Perfect Notebooks and Planners
-                            </h2>
-                            <!-- <p class="ss-sub-title">New Launched Let's Try Our Latest Upcoming</p> -->
-                            <div class="ss-btnWrap">
-                              <a
-                                class="btn btn-primary"
-                                href="shop-grid-view.html"
-                                >Shop Collection</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  class="sidebar-widget clearfix categories filterBox filter-widget">
+                  <div class="widget-title"><h2>Categories</h2></div>
+                  <div class="widget-content filterDD">
+                    <ul class="sidebar-categories scrollspy morelist clearfix">
+                      <li class="lvl1 sub-level more-item">
+                        <a href="#;" class="site-nav">Office</a>
+                        <ul class="sublinks">
+                          <li class="lvl2">
+                            <a href="#;" class="site-nav">Filing materials</a>
+                          </li>
+                          <li class="lvl2">
+                            <a href="#" class="site-nav"
+                              >Organisers <span class="count">(14)</span></a
+                            >
+                          </li>
+                          <li class="lvl2">
+                            <a href="#" class="site-nav"
+                              >Writing eqipment
+                              <span class="count">(26)</span></a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="lvl1 sub-level more-item">
+                        <a href="#;" class="site-nav">Students</a>
+                        <ul class="sublinks">
+                          <li class="lvl2">
+                            <a href="#" class="site-nav"
+                              >Boxes <span class="count">(12)</span></a
+                            >
+                          </li>
+                          <li class="lvl2">
+                            <a href="#" class="site-nav"
+                              >Writing eqipments
+                              <span class="count">(15)</span></a
+                            >
+                          </li>
+                          <li class="lvl2">
+                            <a href="#" class="site-nav"
+                              >Pouches <span class="count">(18)</span></a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="lvl1 more-item">
+                        <a href="#" class="site-nav"
+                          >Pantry <span class="count">(14)</span></a
+                        >
+                      </li>
+                      <li class="lvl1 more-item">
+                        <a href="#" class="site-nav"
+                          >Cleaning <span class="count">(18)</span></a
+                        >
+                      </li>
+                      <li class="lvl1 more-item">
+                        <a href="#" class="site-nav"
+                          >Electronic <span class="count">(22)</span></a
+                        >
+                      </li>
+                      <li class="lvl1 more-item">
+                        <a href="#" class="site-nav"
+                          >Organisers <span class="count">(27)</span></a
+                        >
+                      </li>
+                    </ul>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-4 mt-lg-0">
-                <div class="collection-banner-grid">
-                  <div class="row sp-row">
-                    <div
-                      class="col-12 col-sm-12 col-md-6 col-lg-12 collection-banner-item">
-                      <div class="collection-item sp-col">
-                        <a
-                          href="shop-left-sidebar.html"
-                          class="rounded-4 zoom-scal clr-none">
-                          <div class="img">
-                            <img
-                              class="rounded-4 w-100 blur-up lazyload"
-                              data-src="assets/images/banners/g2.png"
-                              src="assets/images/banners/g2.png"
-                              alt="collection"
-                              title=""
-                              width="454"
-                              height="268" />
-                          </div>
-                          <div class="details middle-left">
-                            <div class="inner">
-                              <span
-                                class="small-title mb-2 text-muted d-block alt-font"
-                                >OFFICE</span
-                              >
-                              <h3 class="title">Desk<br />Organizors</h3>
-                              <span
-                                class="btn btn-outline-secondary mt-3 btn-small"
-                                >Shop Now</span
-                              >
-                            </div>
-                          </div>
-                        </a>
+                <!--Categories-->
+                <!--Price Filter-->
+                <div class="sidebar-widget filterBox filter-widget">
+                  <div class="widget-title"><h2>Price</h2></div>
+                  <form
+                    class="widget-content price-filter filterDD"
+                    action="#"
+                    method="post">
+                    <div id="slider-range" class="mt-2"></div>
+                    <div class="row">
+                      <div class="col-6"><input id="amount" type="text" /></div>
+                      <div class="col-6 text-right">
+                        <button class="btn btn-primary">filter</button>
                       </div>
                     </div>
-                    <div
-                      class="col-12 col-sm-12 col-md-6 col-lg-12 collection-banner-item">
-                      <div class="collection-item sp-col">
-                        <a
-                          href="shop-left-sidebar.html"
-                          class="rounded-4 zoom-scal clr-none">
-                          <div class="img">
-                            <img
-                              class="rounded-4 w-100 blur-up lazyload"
-                              data-src="assets/images/banners/g3.png"
-                              src="assets/images/banners/g3.png"
-                              alt="collection"
-                              title=""
-                              width="454"
-                              height="268" />
-                          </div>
-                          <div class="details middle-left">
-                            <div class="inner">
-                              <span
-                                class="small-title mb-2 alt-font text-muted d-block"
-                                >STUDENTS</span
-                              >
-                              <h3 class="title">
-                                Pens & Writing<br />Instruments
-                              </h3>
-                              <span
-                                class="btn btn-outline-secondary mt-3 btn-small"
-                                >Shop Now</span
-                              >
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
+                  </form>
+                </div>
+                <!--End Price Filter-->
+
+                <!--Product Brands-->
+                <div
+                  class="sidebar-widget filterBox filter-widget brand-filter">
+                  <div class="widget-title"><h2>Brands</h2></div>
+                  <div class="widget-content filterDD">
+                    <ul class="clearfix">
+                      <li>
+                        <input type="checkbox" value="avone" id="avone" /><label
+                          for="avone"
+                          ><span></span>Avone</label
+                        >
+                      </li>
+                      <li>
+                        <input type="checkbox" value="diva" id="diva" /><label
+                          for="diva"
+                          ><span></span>Diva</label
+                        >
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          value="optimal"
+                          id="optimal" /><label for="optimal"
+                          ><span></span>Optimal</label
+                        >
+                      </li>
+                    </ul>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--End Home Slideshow-->
-
-        <!--Products Slider-->
-        <section class="section product-slider pb-0-">
-          <div class="container container-1330">
-            <div class="section-header">
-              <h2>Recommended Products</h2>
-              <a class="btn btn-primary" href="#">view all</a>
-            </div>
-
-            <div
-              class="product-slider-5items gp15 arwOut5 hov-arrow circle-arrow grid-products pro-hover3">
-              <a href="#" class="product__card">
-                <picture>
-                  <img src="./assets/images/pdts/p1.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>REMBRANDT Watercolour wooden box set Traditional</h5>
-                <span><b>$99.00</b> $185.00</span>
-              </a>
-              <a href="#" class="product__card">
-                <picture>
-                  <legend>Sale</legend>
-                  <img src="./assets/images/pdts/p6.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>Talens art creation oil colour set 24 x 12 ml</h5>
-                <span>$55.00</span>
-              </a>
-              <a href="#" class="product__card">
-                <picture>
-                  <img src="./assets/images/pdts/p2.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>
-                  REMBRANDT Soft pastel set General Selection | 30 whole pastels
-                </h5>
-                <span>$30.00</span>
-              </a>
-              <a href="#" class="product__card">
-                <picture>
-                  <img src="./assets/images/pdts/p3.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>Canson Graduate Water Colour Sketchbook 250gsm</h5>
-                <span>$245.00</span>
-              </a>
-              <a href="#" class="product__card">
-                <picture>
-                  <img src="./assets/images/pdts/p4.png" alt="" />
-                </picture>
-                <small>STUDENTS</small>
-                <h5>Old Holland Oil Color 40 ml</h5>
-                <span>$995.00</span>
-              </a>
-              <a href="#" class="product__card">
-                <picture>
-                  <img src="./assets/images/pdts/p5.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>
-                  Diamond painting mandala craft set 3 with gemstones in yellow,
-                  white and red
-                </h5>
-                <span>$285.00</span>
-              </a>
-            </div>
-
-            <div class="view-collection text-center mt-4 mt-md-5 d-none">
-              <a href="shop-left-sidebar.html" class="btn btn-secondary btn-lg"
-                >View Collection</a
-              >
-            </div>
-          </div>
-        </section>
-        <!--End Products Slider-->
-
-        <!--Popular Categories-->
-        <section class="section collection-slider pop_cate">
-          <div class="container container-1330">
-            <div class="section-header">
-              <h2>Popular Categories</h2>
-            </div>
-
-            <div
-              class="collection-slider-5items gp15 arwOut5 hov-arrow circle-arrow">
-              <a href="#" class="category__card">
-                <img src="./assets/images/pdts/c1.png" alt="" />
-                <h4>janitory supplies</h4>
-              </a>
-              <a href="#" class="category__card">
-                <img src="./assets/images/pdts/c2.png" alt="" />
-                <h4>office equipments</h4>
-              </a>
-              <a href="#" class="category__card">
-                <img src="./assets/images/pdts/c3.png" alt="" />
-                <h4>office essentials</h4>
-              </a>
-              <a href="#" class="category__card">
-                <img src="./assets/images/pdts/c4.png" alt="" />
-                <h4>whiteboards & markers</h4>
-              </a>
-              <a href="#" class="category__card">
-                <img src="./assets/images/pdts/c5.png" alt="" />
-                <h4>writing instruments</h4>
-              </a>
-              <a href="#" class="category__card">
-                <img src="./assets/images/pdts/c6.jpg" alt="" />
-                <h4>Students pack</h4>
-              </a>
-            </div>
-          </div>
-        </section>
-        <!--End Popular Categories-->
-
-        <!--Products Slider-->
-        <section class="section product-slider pb-0-">
-          <div class="container container-1330">
-            <div class="section-header">
-              <h2>New Arrivals</h2>
-              <a class="btn btn-primary" href="#">view all</a>
-            </div>
-
-            <div class="row">
-              <a
-                href="#"
-                class="product__card col-6 col-sm-6 col-md-4 col__item__5">
-                <picture>
-                  <img src="./assets/images/pdts/n1.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>Cobra artist water mixable oil colour set 5x40ml tubes</h5>
-                <span><b>$99.00</b> $85.00</span>
-              </a>
-              <a
-                href="#"
-                class="product__card col-6 col-sm-6 col-md-4 col__item__5">
-                <picture>
-                  <legend>Sale</legend>
-                  <img src="./assets/images/pdts/n2.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>Royal & langnickel artist oil paint packs - 21mlx24pcs</h5>
-                <span>$75.00</span>
-              </a>
-              <a
-                href="#"
-                class="product__card col-6 col-sm-6 col-md-4 col__item__5">
-                <picture>
-                  <img src="./assets/images/pdts/n3.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>Talens art creation oil colour set 24 x 12 ml</h5>
-                <span>$30.00</span>
-              </a>
-              <a
-                href="#"
-                class="product__card col-6 col-sm-6 col-md-4 col__item__5">
-                <picture>
-                  <img src="./assets/images/pdts/n4.png" alt="" />
-                </picture>
-                <small>STUDENTS</small>
-                <h5>Cobra artist water mixable oil colour 6x20ml tubes</h5>
-                <span>$45.00</span>
-              </a>
-              <a
-                href="#"
-                class="product__card col-6 col-sm-6 col-md-4 col__item__5">
-                <picture>
-                  <img src="./assets/images/pdts/n5.png" alt="" />
-                </picture>
-                <small>STUDENTS</small>
-                <h5>Cobra study water mixable oil colour set 6x20ml tubes</h5>
-                <span>$95.00</span>
-              </a>
-              <a
-                href="#"
-                class="product__card col-6 col-sm-6 col-md-4 col__item__5">
-                <picture>
-                  <img src="./assets/images/pdts/n6.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>
-                  Talens art creation oil colour oil colour set 12 x 12 ml
-                </h5>
-                <span>$85.00</span>
-              </a>
-              <a
-                href="#"
-                class="product__card col-6 col-sm-6 col-md-4 col__item__5">
-                <picture>
-                  <img src="./assets/images/pdts/n7.png" alt="" />
-                </picture>
-                <small>STUDENT</small>
-                <h5>Royal & langnickel oil paint, 12-piece</h5>
-                <span>$35.00</span>
-              </a>
-              <a
-                href="#"
-                class="product__card col-6 col-sm-6 col-md-4 col__item__5">
-                <picture>
-                  <img src="./assets/images/pdts/n8.png" alt="" />
-                </picture>
-                <small>STUDENT</small>
-                <h5>Talens art creation oil colour set 8 x 12 ml</h5>
-                <span>$65.00</span>
-              </a>
-              <a
-                href="#"
-                class="product__card col-6 col-sm-6 col-md-4 col__item__5">
-                <picture>
-                  <img src="./assets/images/pdts/n9.png" alt="" />
-                </picture>
-                <small>STUDENT</small>
-                <h5>Rembrandt oil colour 150 ml</h5>
-                <span>$95.00</span>
-              </a>
-              <a
-                href="#"
-                class="product__card col-6 col-sm-6 col-md-4 col__item__5">
-                <picture>
-                  <img src="./assets/images/pdts/n10.png" alt="" />
-                </picture>
-                <small>STUDENT</small>
-                <h5>Van gogh oil colour 40ml</h5>
-                <span>$65.00</span>
-              </a>
-            </div>
-
-            <div class="view-collection text-center mt-4 mt-md-5 d-none">
-              <a href="shop-left-sidebar.html" class="btn btn-secondary btn-lg"
-                >View Collection</a
-              >
-            </div>
-          </div>
-        </section>
-        <!--End Products Slider-->
-        <section class="double__ads__banner pt-0">
-          <div class="container container-1330">
-            <div class="row">
-              <div class="col-12 col-lg-6">
-                <a href="#" class="double__card__banner">
-                  <img src="./assets/images/pdts/ad1.png" alt="" />
-                  <div class="double__card__banner__content">
-                    <span>seasonal deals</span>
-                    <h4>stationary<br />and office</h4>
-                  </div>
-                </a>
-              </div>
-              <div class="col-12 col-lg-6">
-                <a href="#" class="double__card__banner">
-                  <img src="./assets/images/pdts/ad2.png" alt="" />
-                  <div class="double__card__banner__content">
-                    <span>special offers</span>
-                    <h4>whiteboards<br />and easels</h4>
-                  </div>
+                <!--End Product Brands-->
+                <a href="#" class="ads__banner__standalone">
+                  <img
+                    src="./assets/images/pdts/ads.png"
+                    alt=""
+                    class="img-fluid" />
                 </a>
               </div>
             </div>
-          </div>
-        </section>
+            <!--End Sidebar-->
 
-        <!--Products Slider-->
-        <section class="section product-slider pb-0-">
-          <div class="container container-1330">
-            <div class="section-header">
-              <h2>Our Best Sellers</h2>
-              <a class="btn btn-primary" href="#">view all</a>
-            </div>
-
-            <div
-              class="product-slider-5items gp15 arwOut5 hov-arrow circle-arrow grid-products pro-hover3">
-              <a href="#" class="product__card">
-                <picture>
-                  <img src="./assets/images/pdts/o1.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>Shinhanart touch liner (0.1mm) 12 color set.</h5>
-                <span><b>$199.00</b> $120.00</span>
-              </a>
-              <a href="#" class="product__card">
-                <picture>
-                  <legend>Sale</legend>
-                  <img src="./assets/images/pdts/p6.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>Shinhanart touch liner (b) 7 color/brush set.</h5>
-                <span>$55.00</span>
-              </a>
-              <a href="#" class="product__card">
-                <picture>
-                  <img src="./assets/images/pdts/o2.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>Isomars mechanical drafting pencil 0.3mm</h5>
-                <span>$30.00</span>
-              </a>
-              <a href="#" class="product__card">
-                <picture>
-                  <img src="./assets/images/pdts/o3.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>Monami 604 highlighter set of 6 colour</h5>
-                <span>$245.00</span>
-              </a>
-              <a href="#" class="product__card">
-                <picture>
-                  <img src="./assets/images/pdts/o4.png" alt="" />
-                </picture>
-                <small>STUDENTS</small>
-                <h5>Isomars mechanical drafting pencil 2mm</h5>
-                <span>$995.00</span>
-              </a>
-              <a href="#" class="product__card">
-                <picture>
-                  <img src="./assets/images/pdts/o5.png" alt="" />
-                </picture>
-                <small>OFFICE</small>
-                <h5>Van gogh oil colour 40ml</h5>
-                <span>$285.00</span>
-              </a>
-            </div>
-
-            <div class="view-collection text-center mt-4 mt-md-5 d-none">
-              <a href="shop-left-sidebar.html" class="btn btn-secondary btn-lg"
-                >View Collection</a
-              >
-            </div>
-          </div>
-        </section>
-        <!--End Products Slider-->
-        <!--Brand Logo-->
-        <section class="section logo-section section-clr">
-          <div class="container container-1330">
-            <div class="section-header d-none">
-              <h2>Popular Brands</h2>
-              <p>Brand the way to a brighter day</p>
-            </div>
-
-            <div class="brands-list">
-              <div
-                class="brands-row logo-bar logo-slider-6items gp10 arwOut5 hov-arrow circle-arrow">
-                <div class="brands-logo">
-                  <a
-                    href="shop-right-sidebar.html"
-                    class="zoom-scal zoom-scal-nopb rounded-4"
-                    ><img
-                      class="rounded-4 blur-up lazyload"
-                      src="assets/images/logo/brandlogo1.png"
-                      alt="Brand Logo"
-                      title=""
-                      width="194"
-                      height="97"
-                  /></a>
-                </div>
-                <div class="brands-logo">
-                  <a
-                    href="shop-right-sidebar.html"
-                    class="zoom-scal zoom-scal-nopb rounded-4"
-                    ><img
-                      class="rounded-4 blur-up lazyload"
-                      src="assets/images/logo/brandlogo2.png"
-                      alt="Brand Logo"
-                      title=""
-                      width="194"
-                      height="97"
-                  /></a>
-                </div>
-                <div class="brands-logo">
-                  <a
-                    href="shop-right-sidebar.html"
-                    class="zoom-scal zoom-scal-nopb rounded-4"
-                    ><img
-                      class="rounded-4 blur-up lazyload"
-                      src="assets/images/logo/brandlogo3.png"
-                      alt="Brand Logo"
-                      title=""
-                      width="194"
-                      height="97"
-                  /></a>
-                </div>
-                <div class="brands-logo">
-                  <a
-                    href="shop-right-sidebar.html"
-                    class="zoom-scal zoom-scal-nopb rounded-4"
-                    ><img
-                      class="rounded-4 blur-up lazyload"
-                      src="assets/images/logo/brandlogo4.png"
-                      alt="Brand Logo"
-                      title=""
-                      width="194"
-                      height="97"
-                  /></a>
-                </div>
-                <div class="brands-logo">
-                  <a
-                    href="shop-right-sidebar.html"
-                    class="zoom-scal zoom-scal-nopb rounded-4"
-                    ><img
-                      class="rounded-4 blur-up lazyload"
-                      src="assets/images/logo/brandlogo5.png"
-                      alt="Brand Logo"
-                      title=""
-                      width="194"
-                      height="97"
-                  /></a>
-                </div>
-                <div class="brands-logo">
-                  <a
-                    href="shop-right-sidebar.html"
-                    class="zoom-scal zoom-scal-nopb rounded-4"
-                    ><img
-                      class="rounded-4 blur-up lazyload"
-                      src="assets/images/logo/brandlogo6.png"
-                      alt="Brand Logo"
-                      title=""
-                      width="194"
-                      height="97"
-                  /></a>
-                </div>
-                <div class="brands-logo">
-                  <a
-                    href="shop-right-sidebar.html"
-                    class="zoom-scal zoom-scal-nopb rounded-4"
-                    ><img
-                      class="rounded-4 blur-up lazyload"
-                      src="assets/images/logo/brandlogo7.png"
-                      alt="Brand Logo"
-                      title=""
-                      width="194"
-                      height="97"
-                  /></a>
+            <!--Products-->
+            <div class="col-12 col-sm-12 col-md-12 col-lg-9 main-col">
+              <!--Toolbar-->
+              <div class="toolbar toolbar-wrapper shop-toolbar">
+                <div class="row align-items-center">
+                  <div
+                    class="col-12 col-sm-4 col-md-6 col-lg-6 text-left product-count order-0 order-md-1 mb-3 mb-sm-0">
+                    <span class="toolbar-product-count"
+                      >Showing: 15 products</span
+                    >
+                  </div>
+                  <div
+                    class="col-8 col-sm-6 col-md-6 col-lg-6 text-right filters-toolbar-item d-flex justify-content-end order-2 order-sm-2">
+                    <div
+                      class="filters-item d-flex align-items-center ms-2 ms-lg-3">
+                      <label for="SortBy" class="mb-0 me-2 text-nowrap d"
+                        >Sort by:</label
+                      >
+                      <select
+                        name="SortBy"
+                        id="SortBy"
+                        class="filters-toolbar-sort">
+                        <option value="featured" selected="selected">
+                          Featured
+                        </option>
+                        <option value="best-selling">Best selling</option>
+                        <option value="title-ascending">
+                          Alphabetically, A-Z
+                        </option>
+                        <option value="title-descending">
+                          Alphabetically, Z-A
+                        </option>
+                        <option value="price-ascending">
+                          Price, low to high
+                        </option>
+                        <option value="price-descending">
+                          Price, high to low
+                        </option>
+                        <option value="created-ascending">
+                          Date, old to new
+                        </option>
+                        <option value="created-descending">
+                          Date, new to old
+                        </option>
+                      </select>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <!--End Toolbar-->
+
+              <!--Product Grid-->
+              <div class="grid-products grid-view-items">
+                <div class="row">
+                  <a
+                    href="#"
+                    class="product__card product__card__lg col-6 col-sm-6 col-md-4 mb-5">
+                    <picture>
+                      <img src="./assets/images/pdts/n1.png" alt="" />
+                    </picture>
+                    <small>OFFICE</small>
+                    <h5>
+                      Cobra artist water mixable oil colour set 5x40ml tubes
+                    </h5>
+                    <span><b>$99.00</b> $85.00</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="product__card product__card__lg col-6 col-sm-6 col-md-4 mb-5">
+                    <picture>
+                      <legend>Sale</legend>
+                      <img src="./assets/images/pdts/n2.png" alt="" />
+                    </picture>
+                    <small>OFFICE</small>
+                    <h5>
+                      Royal &amp; langnickel artist oil paint packs - 21mlx24pcs
+                    </h5>
+                    <span>$75.00</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="product__card product__card__lg col-6 col-sm-6 col-md-4 mb-5">
+                    <picture>
+                      <img src="./assets/images/pdts/n3.png" alt="" />
+                    </picture>
+                    <small>OFFICE</small>
+                    <h5>Talens art creation oil colour set 24 x 12 ml</h5>
+                    <span>$30.00</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="product__card product__card__lg col-6 col-sm-6 col-md-4 mb-5">
+                    <picture>
+                      <img src="./assets/images/pdts/n4.png" alt="" />
+                    </picture>
+                    <small>STUDENTS</small>
+                    <h5>Cobra artist water mixable oil colour 6x20ml tubes</h5>
+                    <span>$45.00</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="product__card product__card__lg col-6 col-sm-6 col-md-4 mb-5">
+                    <picture>
+                      <img src="./assets/images/pdts/n5.png" alt="" />
+                    </picture>
+                    <small>STUDENTS</small>
+                    <h5>
+                      Cobra study water mixable oil colour set 6x20ml tubes
+                    </h5>
+                    <span>$95.00</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="product__card product__card__lg col-6 col-sm-6 col-md-4 mb-5">
+                    <picture>
+                      <img src="./assets/images/pdts/n6.png" alt="" />
+                    </picture>
+                    <small>OFFICE</small>
+                    <h5>
+                      Talens art creation oil colour oil colour set 12 x 12 ml
+                    </h5>
+                    <span>$85.00</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="product__card product__card__lg col-6 col-sm-6 col-md-4 mb-5">
+                    <picture>
+                      <img src="./assets/images/pdts/n7.png" alt="" />
+                    </picture>
+                    <small>STUDENT</small>
+                    <h5>Royal &amp; langnickel oil paint, 12-piece</h5>
+                    <span>$35.00</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="product__card product__card__lg col-6 col-sm-6 col-md-4 mb-5">
+                    <picture>
+                      <img src="./assets/images/pdts/n8.png" alt="" />
+                    </picture>
+                    <small>STUDENT</small>
+                    <h5>Talens art creation oil colour set 8 x 12 ml</h5>
+                    <span>$65.00</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="product__card product__card__lg col-6 col-sm-6 col-md-4 mb-5">
+                    <picture>
+                      <img src="./assets/images/pdts/n9.png" alt="" />
+                    </picture>
+                    <small>STUDENT</small>
+                    <h5>Rembrandt oil colour 150 ml</h5>
+                    <span>$95.00</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="product__card product__card__lg col-6 col-sm-6 col-md-4 mb-5">
+                    <picture>
+                      <img src="./assets/images/pdts/n10.png" alt="" />
+                    </picture>
+                    <small>STUDENT</small>
+                    <h5>Van gogh oil colour 40ml</h5>
+                    <span>$65.00</span>
+                  </a>
+                </div>
+
+                <!-- Pagination -->
+                <nav class="clearfix pagination-bottom">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#"
+                        ><i class="icon anm anm-angle-left-l"></i
+                      ></a>
+                    </li>
+                    <li class="page-item active">
+                      <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link dot" href="#">...</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">5</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#"
+                        ><i class="icon anm anm-angle-right-l"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </nav>
+                <!-- End Pagination -->
+              </div>
+              <!--End Product Grid-->
             </div>
+            <!--End Products-->
           </div>
-        </section>
-        <!--End Brand Logo-->
+        </div>
+        <!--End Main Content-->
+      </div>
+      <!-- End Body Container -->
+
         <!--Parallax Banner-->
-        <div class="section parallax-banner-style1 py-0">
+        <div class="section parallax-banner-style1 py-0 pt-5">
           <div class="hero hero-large hero-overlay bg-size">
             <img
               class="bg-img"
-              src="assets/images/pdts/sd.png"
+              src="assets/images/pdts/par2.png"
               alt="parallax-banner"
               width="1920"
               height="645" />
@@ -1547,76 +1273,6 @@
           </div>
         </div>
         <!--End Parallax Banner-->
-        <section class="blog__listing">
-          <div class="container container-1330">
-            <div class="section-header">
-              <h2>Blogs & Articles</h2>
-              <a class="btn btn-primary" href="#">view all</a>
-            </div>
-            <div class="row mt-4">
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <a href="#" class="blog__card">
-                  <picture
-                    ><img src="./assets/images/pdts/b1.png" alt=""
-                  /></picture>
-                  <h4>
-                    Elevate Your Workspace: Trendy Office Stationery Picks
-                  </h4>
-                  <p>
-                    Upgrade your desk setup with our trendy office stationery
-                    collection! Discover sleek pen holders, stylish planners,
-                    and minimalist...
-                  </p>
-                </a>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <a href="#" class="blog__card">
-                  <picture
-                    ><img src="./assets/images/pdts/b2.png" alt=""
-                  /></picture>
-                  <h4>
-                    Study Smart, Study Stylish: Stationery Essentials for
-                    College Life
-                  </h4>
-                  <p>
-                    Get ready to ace your classes in style with our range of
-                    college stationery essentials! From practical backpacks to
-                    colorful pens...
-                  </p>
-                </a>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <a href="#" class="blog__card">
-                  <picture
-                    ><img src="./assets/images/pdts/b3.png" alt=""
-                  /></picture>
-                  <h4>
-                    Back-to-School Essentials: Must-Have Stationery for Students
-                  </h4>
-                  <p>
-                    Gear up for academic success with our curated selection of
-                    stationery supplies! From sleek pens to stylish
-                    notebooks,...
-                  </p>
-                </a>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <a href="#" class="blog__card">
-                  <picture
-                    ><img src="./assets/images/pdts/b4.png" alt=""
-                  /></picture>
-                  <h4>Stationery Essentials for College Life :best deals</h4>
-                  <p>
-                    Get ready to ace your classes in style with our range of
-                    college stationery essentials! From practical backpacks to
-                    colorful pens and...
-                  </p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
       <!-- End Body Container -->
 
       <!--Footer-->

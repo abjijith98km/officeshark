@@ -131,7 +131,7 @@
     .hov-arrow .slick-arrow { opacity:0; visibility:hidden; }
     .hov-arrow:hover .slick-arrow { opacity:1; visibility:visible; }
 
-    .sidebar-sticky { position: sticky; position: -webkit-sticky; top: 80px; margin-bottom: 40px; }
+    .sidebar-sticky { position: sticky; position: -webkit-sticky; top: 170px; margin-bottom: 40px; }
     .button-set { opacity:0; visibility:hidden; top:10px; right:0;  }
     .grid-products .item:hover .button-set { opacity:1; visibility:visible; right:10px; }   
     .button-set.style2 { bottom:-10px; }
@@ -1104,7 +1104,7 @@
 
     .header-7 .iconset .iconCot { width: auto; height: auto; background: transparent; }
     .header-7 .iconset:hover .iconCot { background: transparent; }
-    .header-7 .iconset:hover .iconCot .hdr-icon { color: #2b7c63; }
+    .header-7 .iconset:hover .iconCot .hdr-icon { color: #fff; }
     .header-7 .wishlist-count, .header-7 .cart-count { right: -5px; top: -10px; }
     .index-demo7 .slideshow .ss-sub-title { display: none !important; }
     .index-demo7 #accountBox { margin-left: 15px; }
