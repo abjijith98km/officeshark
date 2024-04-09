@@ -9,7 +9,7 @@
     <meta name="description" content="description" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Title Of Site -->
-    <title>Base template</title>
+    <title>Product listing</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.png" />
     <!-- Plugins CSS -->
@@ -899,7 +899,25 @@
       <!-- Body Container -->
       <!-- Body Container -->
       <div id="page-content">
-        <div class="py-3"></div>
+            <!--Page Header-->
+        <div class="page-header text-center">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-between align-items-center">
+                <!--Breadcrumbs-->
+                <div class="breadcrumbs">
+                  <a href="/" title="Back to the home page">Home</a
+                  ><span class="main-title fw-bold"
+                    ><i class="icon anm anm-angle-right-l"></i>students instruments</span
+                  >
+                </div>
+                <!--End Breadcrumbs-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End Page Header-->
         <!--Main Content-->
         <div class="container pt-5">
           <div class="row">
@@ -1084,6 +1102,7 @@
                         </option>
                       </select>
                     </div>
+                    <button type="button" class="btn btn-filter icon anm anm-sliders-hr d-inline-flex d-lg-none  ms-4 me-0"><span class="d-none">Filter</span></button>
                   </div>
                 </div>
               </div>
