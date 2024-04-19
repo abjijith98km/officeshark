@@ -230,7 +230,7 @@
     .arwOut5 .slick-arrow { width: 35px; height: 35px; }
     .arwOut5 .slick-arrow:before { font-size: 17px; }
 
-    .page-header { padding: 40px 0; margin-bottom: 50px; }
+    .page-header { padding: 40px 0; margin-bottom: 30px; }
     .text-large { font-size: 18px !important; line-height: 30px !important; }
     .search-drawer .search-products { margin-top: 20px; padding-top: 20px; }
 
@@ -282,10 +282,10 @@
 
     /* MobileMenu bg black */
     .mobileMenu-bg-black { background-color: #222; }
-    .mobileMenu-bg-black .closemobileMenu { background-color: #000000; color: #ffffff; }
+    .mobileMenu-bg-black .closemobileMenu { background-color: #000000; color: #fff; }
     .mobileMenu-bg-black #MobileNav li a,
     .mobileMenu-bg-black #MobileNav li a .icon,
-    .mobileMenu-bg-black #MobileNav .mobile-menu-bottom .title { color: #ffffff; }
+    .mobileMenu-bg-black #MobileNav .mobile-menu-bottom .title { color: #000; }
     .mobileMenu-bg-black #MobileNav .mobile-menu-bottom .title { text-transform: uppercase; border-top-color: #434343; }
     .mobileMenu-bg-black #MobileNav li { border-top-color: #434343; }
     .mobileMenu-bg-black #MobileNav li.lvl1 li a { background-color: #212121; }
@@ -466,14 +466,14 @@
     .index-demo7 .parallax-banner-style1 .hero-large { height: 400px; }
     .index-demo7 .ctg-bnr-wrap .ctg-image.ratio:before { padding-top: 450px; }
     .index-demo7 .ctg-bnr-wrap .ctg-image.ratio > * { width: auto; margin: 0 auto; right: 0; }
-    .index-demo7 .mobileMenu-bg-black { background-color: #0F2167; }
-    .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li a { background-color: #010d3d; }
+    .index-demo7 .mobileMenu-bg-black { background-color: #fff; }
+    .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li a { background-color: #fff; }
     .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li li a { background-color: #010d3d; }
     .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li li li a { background-color: #010d3d; }
     .index-demo7 .mobileMenu-bg-black #MobileNav li { border-top-color: #010d3d; }
     .index-demo7 .mobileMenu-bg-black #MobileNav li a:hover, 
-    .index-demo7 .mobileMenu-bg-black #MobileNav li a:hover .icon { color: #fff; }
-    .index-demo7 .mobileMenu-bg-black .closemobileMenu { background-color: #010d3d; }
+    .index-demo7 .mobileMenu-bg-black #MobileNav li a:hover .icon { color: #000; }
+    .index-demo7 .mobileMenu-bg-black .closemobileMenu { background-color: #475e7d; }
     .index-demo7 .mobileMenu-bg-black #MobileNav .mobile-menu-bottom .title { border-top-color: #398a71; }
     .index-demo7 .slideshow .ss-mega-title { font-size: 36px; }
 
