@@ -577,3 +577,11 @@ textarea.form-control,
     border-color: #0e90c8;
   }
 }
+.cart__item__card > a > img {
+  width: 100px;
+  margin-right: 15px;
+}
+.cart__item__card {
+  display: flex;
+  align-items: flex-start;
+}
