@@ -286,8 +286,8 @@
     .mobileMenu-bg-black #MobileNav li a,
     .mobileMenu-bg-black #MobileNav li a .icon,
     .mobileMenu-bg-black #MobileNav .mobile-menu-bottom .title { color: #000; }
-    .mobileMenu-bg-black #MobileNav .mobile-menu-bottom .title { text-transform: uppercase; border-top-color: #434343; }
-    .mobileMenu-bg-black #MobileNav li { border-top-color: #434343; }
+    .mobileMenu-bg-black #MobileNav .mobile-menu-bottom .title { text-transform: uppercase; border-top-color: #777777; }
+    .mobileMenu-bg-black #MobileNav li { border-top-color: #777777; }
     .mobileMenu-bg-black #MobileNav li.lvl1 li a { background-color: #212121; }
     .mobileMenu-bg-black #MobileNav li.lvl1 li li a { background-color: #2b2b2b; }
     .mobileMenu-bg-black #MobileNav li.lvl1 li li li a { background-color: #333333; }
@@ -470,11 +470,11 @@
     .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li a { background-color: #fff; }
     .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li li a { background-color: #010d3d; }
     .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li li li a { background-color: #010d3d; }
-    .index-demo7 .mobileMenu-bg-black #MobileNav li { border-top-color: #010d3d; }
+    .index-demo7 .mobileMenu-bg-black #MobileNav li { border-top-color: #777777; }
     .index-demo7 .mobileMenu-bg-black #MobileNav li a:hover, 
     .index-demo7 .mobileMenu-bg-black #MobileNav li a:hover .icon { color: #000; }
     .index-demo7 .mobileMenu-bg-black .closemobileMenu { background-color: #475e7d; }
-    .index-demo7 .mobileMenu-bg-black #MobileNav .mobile-menu-bottom .title { border-top-color: #398a71; }
+    .index-demo7 .mobileMenu-bg-black #MobileNav .mobile-menu-bottom .title { border-top-color: #777777; }
     .index-demo7 .slideshow .ss-mega-title { font-size: 36px; }
 
     .header-8 .header-main { padding-top: 15px; padding-bottom: 15px; min-height: 60px; }
