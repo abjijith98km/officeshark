@@ -3720,14 +3720,14 @@
 }
 
 @media (max-width: 1200px) {
-  .slick-next,
-  .slick-prev {
+  .product-slider-5items .slick-next,
+  .product-slider-5items .slick-prev {
     top: 44%;
   }
 }
 @media (max-width: 720px) {
-  .slick-next,
-  .slick-prev {
+ .product-slider-5items .slick-next,
+ .product-slider-5items .slick-prev {
     top: 40%;
   }
 }
