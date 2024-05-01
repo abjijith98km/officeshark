@@ -1260,7 +1260,7 @@ textarea:-ms-input-placeholder {
   cursor: pointer;
   background: 0 0;
   color: transparent;
-  top: 50%;
+  top: 49%;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
